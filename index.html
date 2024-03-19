@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Appearances</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://png.pngtree.com/background/20220718/original/pngtree-retro-gradient-landscape-night-game-style-web-banner-background-picture-image_1661477.jpg'); /* Background image for the entire website */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+            background-position: center; /* Center the background image */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 24px; /* Increased font size for navigation links */
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffcc00; /* Change color on hover */
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+            font-size: 36px; /* Increased font size for section headings */
+        }
+        p {
+            color: #666;
+            font-size: 20px; /* Increased font size for paragraphs */
+        }
+        .event {
+            border-bottom: 1px solid #ccc;
+            padding: 20px 0;
+            transition: all 0.3s ease;
+        }
+        .event:hover {
+            background-color: #f9f9f9; /* Change background color on hover */
+        }
+        .sticky-header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0; /* Increased padding for the sticky header */
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .sticky-header h1 {
+            font-size: 72px; /* Increased font size for the header */
+            margin: 0;
+        }
+        @media only screen and (max-width: 600px) {
+            nav a {
+                font-size: 20px; /* Decrease font size for smaller screens */
+            }
+            .event {
+                padding: 20px; /* Adjust padding for smaller screens */
+            }
+            h2 {
+                font-size: 24px; /* Decrease font size for smaller screens */
+            }
+            p {
+                font-size: 16px; /* Decrease font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="sticky-header">
+        <h1>Gaming Zone</h1>
+    </header>
+    <nav>
+            <a href="#upcoming-events">Upcoming Events</a>
+            <a href="#developer-spotlights">Developer Spotlights</a>
+            <a href="#login">Login</a>
+            <a href="#signup">Signup</a>
+        </nav>
+    <section id="upcoming-events">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>Game Expo 2024</h3>
+            <p>Date: March 20, 2024 - March 22, 2024</p>
+            <p>Location: Los Angeles Convention Center, Los Angeles, CA</p>
+            <p>Description: The premier gaming expo of the year! Join us for three days of exciting reveals, hands-on demos, and exclusive developer panels. Don't miss out on the opportunity to experience the future of gaming firsthand.</p>
+        </div>
+        <div class="event">
+            <h3>Indie Game Showcase</h3>
+            <p>Date: April 10, 2024</p>
+            <p>Location: Online Event</p>
+            <p>Description: Celebrate the creativity and innovation of independent game developers from around the world. Tune in to discover unique indie titles, participate in live Q&A sessions, and support up-and-coming talent.</p>
+        </div>
+    </section>
+    <section id="developer-spotlights">
+        <h2>Developer Spotlights</h2>
+        <div class="event">
+            <h3>Developer Spotlight: Jane Smith</h3>
+            <p>Date: March 25, 2024</p>
+            <p>Description: Join us for an in-depth conversation with Jane Smith, lead designer of the highly anticipated RPG "Chrono Quest." Learn about the inspiration behind the game, challenges faced during development, and what players can expect upon release.</p>
+        </div>
+        <div class="event">
+            <h3>Developer Spotlight: John Doe</h3>
+            <p>Date: April 5, 2024</p>
+            <p>Description: Don't miss our interview with John Doe, founder of a renowned indie game studio. Discover how he got started in game development, his approach to storytelling, and his thoughts on the future.</p>
+        </div>
+    </section>
+</body>
+</html>

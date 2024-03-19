@@ -1,0 +1,20 @@
+Design Decisions:
+
+Color Scheme: I chose a dark header with white text for better readability and a professional look. The body has a light gray background to reduce eye strain and maintain focus on content.
+Typography: I used Arial as the primary font for its readability across different devices. The font size and spacing were chosen to ensure comfortable reading.
+Layout: The layout is clean and organized, with navigation links placed prominently at the top for easy access. Each section is clearly separated, making it intuitive for users to navigate.
+Responsive Design: Media queries were used to make the website responsive, ensuring a consistent user experience across various screen sizes and devices.
+Challenges Faced:
+
+Form Validation: Implementing form validation in JavaScript posed a challenge, especially ensuring that all required fields are filled and that the input follows the correct format (e.g., email validation).
+Cross-Browser Compatibility: Testing the website on different browsers revealed some inconsistencies in rendering, particularly with older versions of Internet Explorer. This required additional CSS tweaks to ensure proper display.
+Responsive Design: Achieving responsiveness across all screen sizes and resolutions was challenging, especially for complex layouts. It required careful adjustment of CSS properties and extensive testing on various devices.
+Optimization: Balancing aesthetics with performance was another challenge. Optimizing images and minimizing CSS and JavaScript files without compromising visual appeal required iterative refinement.
+Overall, overcoming these challenges involved a combination of research, experimentation, and iterative development to ensure a polished and user-friendly website.
+
+
+
+
+
+
+
